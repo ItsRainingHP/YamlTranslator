@@ -1,0 +1,28 @@
+DefaultFile: "en_US.yml"
+RateLimit: 20
+Key: ""
+BaseURL: ""
+Model: ""
+System: "You are a translation assistant. Your job is to translate text into the requested language. Only return the translated text with no explanations or extra characters. Do not translate placeholders wrapped in %"
+Prompt: "Language: {{language}} - Message: {{message}}"
+languages:
+  - ar_EG
+  - cs_CZ
+  - da_DK
+  - de_DE
+  - el_GR
+  - es_ES
+  - fa_IR
+  - fi_FI
+  - fr_FR
+  - it_IT
+  - ja_JP
+  - ko_KR
+  - pl_PL
+  - pt_BR
+  - pt_PT
+  - ru_RU
+  - sv_SE
+  - tr_TR
+  - vi_VN
+  - zh_CN
